@@ -2,11 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-
+/* 
 
 .background{
  
-  background-image: url('https://img.freepik.com/free-vector/abstract-blue-light-pipe-speed-zoom-black-background-technology_1142-9530.jpg'); /* Correct usage without quotes around the URL */
+  background-image: url('https://img.freepik.com/free-vector/abstract-blue-light-pipe-speed-zoom-black-background-technology_1142-9530.jpg');
   background-size: cover; 
   background-repeat: no-repeat;
   margin-top: 0px;
@@ -79,4 +79,4 @@
     width: 100%; 
   }
 }
-
+ */
