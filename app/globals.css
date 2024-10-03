@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.background{
+ 
+  background-image: url('https://img.freepik.com/free-vector/abstract-blue-light-pipe-speed-zoom-black-background-technology_1142-9530.jpg'); /* Correct usage without quotes around the URL */
+  background-size: cover; 
+  background-repeat: no-repeat;
+  margin-top: 0px;
+}
+
+
+.BikeBliss{
+  font-size: 30px;
+  border-radius: 25px;
+ 
+  margin-left: 60px;
+  width: 200px;
+  text-align: center;
+  height: 80px;
+  padding: 10px;
+  background-image: linear-gradient(to bottom right, rgb(60, 56, 60), rgb(9, 14, 53));
+}
+
+.heading{
+  margin-top: 30px;
+  margin-left: 60px;
+}
+
+.subhead{
+  margin-top: 30px;
+  margin-left: 60px;
+}
+
+
+.rotation{
+  transform: rotate(350deg) skewX(5deg);
+  width: 300px;
+  margin-left: 1000px;
+  background-image: linear-gradient(to bottom right, rgb(35, 1, 35), rgb(2, 6, 37));
+}
+
+.features{
+  transform: rotate(350deg) skewX(5deg);;
+  width: 800px;
+  margin-left: 1900px;
+  background-image: linear-gradient(to bottom right, rgb(35, 1, 35), rgb(2, 6, 37));
+}
+
+.para1{
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+
+.image1
+{
+  width: 900px;
+  height: 300px;
+}
+
+.image2{
+  width: 500px;
+  height: 250px;
+}
+
+
+.hero,
+.features {
+  flex: 1; 
+  margin: 10px; 
+}
+
+
+@media (max-width: 768px) {
+  .landing {
+    flex-direction: column; 
+  }
+  
+  .hero,
+  .features {
+    flex-direction: column;
+    width: 100%; 
+  }
+}
+
