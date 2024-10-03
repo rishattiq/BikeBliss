@@ -16,7 +16,6 @@
 .BikeBliss{
   font-size: 30px;
   border-radius: 25px;
- 
   margin-left: 60px;
   width: 200px;
   text-align: center;
@@ -38,15 +37,14 @@
 
 .rotation{
   transform: rotate(350deg) skewX(5deg);
-  width: 300px;
   margin-left: 1000px;
+  width: 300px;
   background-image: linear-gradient(to bottom right, rgb(35, 1, 35), rgb(2, 6, 37));
 }
 
 .features{
   transform: rotate(350deg) skewX(5deg);;
-  width: 800px;
-  margin-left: 1900px;
+  width: 900px;
   background-image: linear-gradient(to bottom right, rgb(35, 1, 35), rgb(2, 6, 37));
 }
 
@@ -68,11 +66,6 @@
 }
 
 
-.hero,
-.features {
-  flex: 1; 
-  margin: 10px; 
-}
 
 
 @media (max-width: 768px) {

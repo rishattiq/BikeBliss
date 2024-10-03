@@ -1,11 +1,11 @@
 import React from 'react';
-import HeroSection from './HeroSection';
-import FeaturesSection from './FeatureSection';
+import HeroSection from './herosection';
+import FeaturesSection from './featuresection';
 
 const Landing: React.FC = () => {
   return (
     <div className='background landing'>
-      <div className='w-full pt-32'>
+      <div className='pt-32'>
         <p className='BikeBliss'>Bike Bliss</p>
       </div>
       <div className='heading'>
